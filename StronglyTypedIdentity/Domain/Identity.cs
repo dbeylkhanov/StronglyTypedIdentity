@@ -1,6 +1,6 @@
 using System;
 
-namespace StronglyTypedIdentity
+namespace StronglyTypedIdentity.Domain
 {
 	public class Identity : IEquatable<Identity> {
 		public int Value { get; }

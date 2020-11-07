@@ -2,8 +2,9 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.EntityFrameworkCore.ValueGeneration;
+using StronglyTypedIdentity.Domain;
 
-namespace StronglyTypedIdentity
+namespace StronglyTypedIdentity.Infrastructure
 {
 	public class TypedValueIdentityGenerator<TTypedIdValue> : ValueGenerator<TTypedIdValue> where TTypedIdValue : Identity {
 		private readonly string _sequenceName;

@@ -1,7 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+using StronglyTypedIdentity.Domain;
 
-namespace StronglyTypedIdentity
+namespace StronglyTypedIdentity.Infrastructure
 {
 	public class CustomDbContext : DbContext
 	{

@@ -1,4 +1,4 @@
-namespace StronglyTypedIdentity
+namespace StronglyTypedIdentity.Domain
 {
 	public class CustomTypeId : Identity
 	{

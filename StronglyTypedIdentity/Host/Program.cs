@@ -1,4 +1,4 @@
-namespace StronglyTypedIdentity
+namespace StronglyTypedIdentity.Host
 {
 	class Program
 	{

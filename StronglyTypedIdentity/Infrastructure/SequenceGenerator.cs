@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.EntityFrameworkCore.Update;
 
-namespace StronglyTypedIdentity
+namespace StronglyTypedIdentity.Infrastructure
 {
 	public static class SequenceGenerator
 	{
